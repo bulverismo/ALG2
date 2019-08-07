@@ -1,0 +1,80 @@
+
+
+	1 -
+	idade 34
+	velho 92
+	jovem 16
+
+
+	idade /= velho  = .true.
+	idade >= jovem	= .true.
+	(idade==56 .and. velho /= 92) = false .and. false = false
+	(idade==56 .or. (.not.(velhos /= 92)))
+	      false .or. ( .not. (.false.))
+		false .or. .true.
+			.true.
+
+	.not. (idade==56 .or. velho /= 92)
+	.not. ( .false. )
+	.true.
+
+	2 -
+	 (12+3) <= 15 
+		.true.
+
+	(2>1) .and. (3<4)
+	true .and. true
+	true
+
+	3>2 .or. ((1+2)<3) .eqv. (4<=3) 
+	true .or. (3<3) .eqv. false
+	true .or. false .eqv. false 
+		true .eqv. false
+		false
+	
+
+	4 -
+	
+	a
+	ae
+	ou
+	eio
+	eioae
+
+	5 - 
+
+	alfa rank 3 shape 7,3,8 elementos 144
+	beta rank 3 shape 7,3,8 elementos 144
+	
+	sim, pois tem os mesmos rank, shape e qtd eleme
+
+	6 -
+	a(6,3)
+
+	a sim
+	b nao
+	c sim
+	d nao
+	e nao
+
+	7 - 
+	a int a(50)
+
+	-1 em a(1) , 0 em a(/2:49/) e 1 em a(50)
+
+	a valida 
+	b invalida
+	c invalida
+
+	
+
+
+
+
+
+
+
+
+
+
+	
